@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #000;
+}
+
+.jumbotron {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.btn-primary {
+    background-color: #333;
+    border-color: #333;
+}
+
+.btn-primary:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-outline-primary {
+    color: #333;
+    border-color: #333;
+}
+
+.btn-outline-primary:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+.card {
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+footer a.text-dark:hover {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 2rem 1rem;
+    }
+}
